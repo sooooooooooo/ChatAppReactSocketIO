@@ -1,10 +1,10 @@
 import React from 'react';
-import Chat from "./components/Chat";
+import MainView from "./views/MainView";
 
 function App() {
   return (
     <div className="container">
-      <Chat />
+      <MainView />
     </div>
   );
 }
